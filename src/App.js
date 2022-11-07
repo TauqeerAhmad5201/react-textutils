@@ -27,4 +27,10 @@ Navbar.defaultProps = {
   title: "React Works",
 
 }
+Textbox.propTypes = {
+  heading: PropTypes.string.isRequired, 
+}
+Textbox.defaultProps = {
+  title : "Please enter the text to analyse",
+}
 export default App;
