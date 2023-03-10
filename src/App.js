@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import PropTypes from 'prop-types';
 import Textbox from './components/Textbox';
-import WordCount from './components/WordCount'
 
 // let name = "Tauqeer Ahmad";
 // let lang = {
@@ -17,7 +16,6 @@ function App() {
       <div className="container">
         <Textbox heading="Enter the text to analyse" />
       </div>
-      <WordCount></WordCount>
 
     </>
   );
