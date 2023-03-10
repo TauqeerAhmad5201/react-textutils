@@ -27,6 +27,9 @@ export default function Textbox(props) {
                     <button className="btn btn-primary mx-4 my-4" type="button" onClick={handleDownClick}>Convert to Lowercase</button>
 
                 </div>
+                <div>
+                <p>{text.length}</p>
+                </div>
             </form >
 
         </>
