@@ -12,6 +12,10 @@ export default function Textbox(props) {
         let lowerText = text.toLowerCase(); 
         setText(lowerText)
     }
+    const handleOnClick = () => {
+        let ClearText = ''
+        setText(ClearText)
+    }
     const [text, setText] = useState('Hello World!');
     return (
         <>
@@ -25,6 +29,7 @@ export default function Textbox(props) {
 
                     <button className="btn btn-primary my-4" type="button" onClick={handleUpClick}>Convert to Uppercase</button>
                     <button className="btn btn-primary mx-4 my-4" type="button" onClick={handleDownClick}>Convert to Lowercase</button>
+                    <button className="btn btn-primary mx-4 my-4" type="button" onClick={handleOnClick}>Clear</button>
 
                 </div>
                 <div>
