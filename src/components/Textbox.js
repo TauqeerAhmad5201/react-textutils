@@ -29,7 +29,7 @@ export default function Textbox(props) {
 
                     <button className="btn btn-primary my-4" type="button" onClick={handleUpClick}>Convert to Uppercase</button>
                     <button className="btn btn-primary mx-4 my-4" type="button" onClick={handleDownClick}>Convert to Lowercase</button>
-                    <button className="btn btn-primary mx-4 my-4" type="button" onClick={handleOnClick}>Clear</button>
+                    <button className="btn btn-primary mx-2 my-2" type="button" onClick={handleOnClick}>Clear Text</button>
 
                 </div>
                 <div>
