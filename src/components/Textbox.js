@@ -16,6 +16,10 @@ export default function Textbox(props) {
         let ClearText = ''
         setText(ClearText)
     }
+    const handleOnExtraSpace = () => {
+        let newString = text.replace(/\s+/g,' ').trim();
+        setText(newString)
+    }
     const [text, setText] = useState('Hello World!');
     return (
         <>
@@ -30,6 +34,7 @@ export default function Textbox(props) {
                     <button className="btn btn-primary my-4" type="button" onClick={handleUpClick}>Convert to Uppercase</button>
                     <button className="btn btn-primary mx-4 my-4" type="button" onClick={handleDownClick}>Convert to Lowercase</button>
                     <button className="btn btn-primary mx-2 my-2" type="button" onClick={handleOnClick}>Clear Text</button>
+                    <button className="btn btn-primary mx-2 my-2" type="button" onClick={handleOnExtraSpace}>Remove Extra Space</button>
 
                 </div>
                 <div>
