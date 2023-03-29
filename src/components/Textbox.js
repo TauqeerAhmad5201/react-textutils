@@ -38,6 +38,8 @@ export default function Textbox(props) {
                 </div>
             </form >
 
+            <h4>Preview:</h4>
+            <p>{text}</p>
         </>
     )
 }
