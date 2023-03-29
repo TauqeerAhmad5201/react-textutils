@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import PropTypes from 'prop-types';
 import Textbox from './components/Textbox';
-import Preview from './components/Preview';
 
 // let name = "Tauqeer Ahmad";
 // let lang = {
@@ -18,10 +17,6 @@ function App() {
         <Textbox heading="Enter the text to analyse" />
       </div>
       {/* container class is the class of Bootstrap to proper padding and margin */}
-      <div className='container'>
-        <Preview></Preview>
-      </div>
-
     </>
   );
 }
