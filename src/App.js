@@ -17,7 +17,7 @@ function App() {
       <div className="container">
         <Textbox heading="Enter the text to analyse" />
       </div>
-      // container class is the class of Bootstrap to proper padding and margin
+      {/* container class is the class of Bootstrap to proper padding and margin */}
       <div className='container'>
         <Preview></Preview>
       </div>
