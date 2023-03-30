@@ -38,12 +38,13 @@ export default function Textbox(props) {
                         <label htmlFor="exampleFormControlTextarea1" className='py-3'>Entering the text</label>
                         <textarea className="form-control" id="exampleFormControlTextarea1" rows="10"  value={text} onChange={handleOnChange}></textarea>
                     </div>
-
-                    <button className="btn btn-primary my-4" type="button" onClick={handleUpClick}>Convert to Uppercase</button>
-                    <button className="btn btn-primary mx-4 my-2" type="button" onClick={handleDownClick}>Convert to Lowercase</button>
-                    <button className="btn btn-primary mx-2 my-2" type="button" onClick={handleOnClick}>Clear Text</button>
-                    <button className="btn btn-primary mx-2 my-2" type="button" onClick={handleOnExtraSpace}>Remove Extra Space</button>
-                    <button className="btn btn-primary mx-2 my-2" type="button" onClick={handleOnCopy}>Copy</button>
+                    <div>
+                    <button className="btn btn-primary mx-1 my-3" type="button" onClick={handleUpClick}>Convert to Uppercase</button>
+                    <button className="btn btn-primary mx-1 my-3" type="button" onClick={handleDownClick}>Convert to Lowercase</button>
+                    <button className="btn btn-primary mx-1 my-3" type="button" onClick={handleOnClick}>Clear Text</button>
+                    <button className="btn btn-primary mx-1 my-3" type="button" onClick={handleOnExtraSpace}>Remove Extra Space</button>
+                    <button className="btn btn-primary mx-1 my-3" type="button" onClick={handleOnCopy}>Copy</button>
+                    </div>
 
                 </div>
                 <div>
