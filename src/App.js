@@ -11,7 +11,7 @@ import Textbox from './components/Textbox';
 function App() {
   return (
     <>
-      <Navbar title="Text Utils" home="Home" services="Services" live="Go Live"></Navbar>
+      <Navbar title="Text Utils" home="&#128151; Buy me a coffee"></Navbar>
       {/* <Navbar></Navbar> */}
       <div className="container">
         <Textbox heading="Enter the text to analyse" />
