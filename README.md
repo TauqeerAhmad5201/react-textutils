@@ -2,6 +2,8 @@
 ## Customize your text in favor of you! 
 
 Text Utility is a Single Page Application used to customize your text handy. 
+
+ ![TU1](https://user-images.githubusercontent.com/68806440/228857264-0def7312-aa03-4766-a5c2-ef7549a38043.jpg)
 ## Features
 
 - Converting the text to UpperCase
@@ -9,7 +11,8 @@ Text Utility is a Single Page Application used to customize your text handy.
 - Removing Extra spaces from chunks of paragrams 
 - Smooth preview of text letting you plan 
 - Word Count and Character Count embedded 
- 
+
+
 
 ## Installation
 
