@@ -28,7 +28,7 @@ export default function Textbox(props) {
 
         navigator.clipboard.writeText(copyText.value); 
     }
-    const [text, setText] = useState('Hello World!');
+    const [text, setText] = useState('Hey! You can type here');
     return (
         <>
             <form>
