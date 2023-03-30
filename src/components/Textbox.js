@@ -48,8 +48,9 @@ export default function Textbox(props) {
 
                 </div>
                 <div>
-                    <h2>Text Summary:</h2>
+                <h2>Text Summary:</h2>
                 <p>{text.split(' ').length} words and {text.length} characters.</p>
+                <h4>Time to read: </h4><span>{(text.split(' ').length*2.33).toFixed(2)} Seconds</span>
                 </div>
             </form >
 
