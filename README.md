@@ -11,7 +11,7 @@ Text Utility is a Single Page Application used to customize your text handy.
 - Removing Extra spaces from chunks of paragrams 
 - Smooth preview of text letting you plan 
 - Word Count and Character Count embedded 
-
+- Time required to read the words
 
 
 ## Installation
