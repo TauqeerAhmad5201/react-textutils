@@ -50,6 +50,10 @@ export default function Textbox(props) {
                 <div>
                 <h2>Text Summary:</h2>
                 <p>{text.split(/\s+/).length} words and {text.length} characters.</p>
+                <p>Special Charter ( including space ) :  {(text.match(/[\W_]/g) || []).length} characters.</p>
+                <p>Special Charter ( excuding spaces ) : {(text.match(/[^\w\s]/g) || []).length} characters.</p>
+
+
                 <h4>Time to read: </h4><span>{(text.split(' ').length*2.33).toFixed(2)} Seconds</span>
                 </div>
             </form >
